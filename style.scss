@@ -1,0 +1,112 @@
+@import "./scss_override";
+
+.logoImg {
+  width: 100px;
+}
+
+.lastItem {
+  margin-left: auto;
+}
+
+.avatarImg {
+  height: 40px;
+}
+
+.mainBtn {
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 0px;
+}
+.sideBtn {
+  padding: 0px 9px;
+}
+
+.colorBtn {
+  color: grey;
+  border: 1px solid grey;
+}
+.col {
+  padding: 0.125rem;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+  }
+}
+
+footer {
+  margin-top: 5vh;
+  div {
+    svg {
+      width: 25px;
+      height: 25px;
+      color: $secondary;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      a {
+        text-decoration: none;
+        color: $secondary;
+        font-size: 0.75rem;
+      }
+    }
+  }
+}
+
+.space {
+  height: 26.5px;
+}
+.footBtn {
+  border-radius: 0;
+  font-size: 0.7rem;
+}
+p {
+  font-size: 0.5rem;
+  color: $secondary;
+}
+
+/* PROFILE PAGE */
+
+.secondNav {
+  box-shadow: 0px 26px 39px 22px rgba(0, 0, 0, 0.75) inset;
+}
+
+.profileImg {
+  width: 120px;
+}
+
+.miniLogo {
+  background-color: black;
+  border-color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  z-index: 2;
+  color: $light;
+}
+
+.check {
+  background-color: $secondary;
+}
+
+.prova {
+  position: absolute;
+  left: 24.5px;
+  top: 27px;
+  z-index: 0;
+}
+
+.carousel-item-1 {
+  opacity: 0;
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+}
